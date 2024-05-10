@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacional Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/naciona.png" alt="Nacional Logo" id="logo">
+        <div class="menu">
+            <button class="menu-item"> <a href="index.html">Inicio</a></button>
+            <button class="menu-item"><a href="historia.html">historia</a></button>
+            <button class="menu-item"><a href="jugadores.html">jugadores</a></button>
+          </div>
+    </header>
+    <main id="main-doc">
+        <section class="main-section" id="inicio">
+            <header><h1>Nacional Club</h1></header>
+            <article>
+                <p>En el barrio Boston, al centro-oriente de Medellín, fue fundado el equipo Unión Foot-Ball Club en 1936 
+                   por un grupo de jóvenes que se reunían a jugar fútbol en la cancha conocida como «La manga de Don Pepe»;
+                   esta se encontraba en el costado oriental de la vía que en la actualidad es la Carrera 39,
+                   entre lo que hoy es el Teatro Pablo Tobón Uribe y la Placita de Flórez.En 1941,
+                    el Unión se convirtió en participante de la segunda categoría de la Liga Antioqueña de Fútbol.
+                    El equipo fue llevado a la segunda por don Miguel Ortiz Tobón, vicepresidente de la Liga, 
+                    quien los había visto jugar y quedó impresionado por su calidad.</p>
+            </article>
+            <div class="cartas">
+                <div class="card">
+                <div class="face front">
+                  <img class="tarjeta" src="imagenes/memi.jpg" alt="" class="IMAGENTAR"></img>
+                  <h3>TITULO</h3>
+                </div>
+                <div class="face back">
+                  <h3>DORLAN</h3>
+                  <p>Su pegada, sus goles, su liderazgo, la garra,
+                    los títulos, el amor por la camiseta. Hoy se despide del Verde,
+                    pero siempre será uno de los nuestros. ¡ÍDOLO!",
+                    publicó Atlético Nacional en sus redes sociales
+                    junto a un video con declaraciones del atacante colombiano de 36 años</p>
+                    <a href=""></a>
+                </div>
+              </div>
+              </div>
+        </section>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            
+            <img class="icono" src="imagenes/whatsapp.png" alt="Whatsapp Logo">
+            <img class="icono" src="imagenes/facebook.png" alt="Facebook Logo">
+            <img class="icono" src="imagenes/logotipo-de-instagram.png" alt="Instagram Logo">
+            <img class="icono" src="imagenes/icons8-twitter-50.png" alt="Twitter Logo">
+        </div>
+    </footer>
+    <script>
+        const inicioButton = document.getElementById("inicio-button");
+        const historiaButton = document.getElementById("historia-button");
+        const jugadoresButton = document.getElementById("jugadores-button");
+        const inicioSection = document.getElementById("inicio");
+        const historiaSection = document.getElementById("historia");
+        const jugadoresSection = document.getElementById("jugadores");
+
+        inicioButton.addEventListener("click", () => {
+    inicioSection.scrollIntoView({ behavior: "smooth" });
+});
+
+historiaButton.addEventListener("click", () => {
+    historiaSection.scrollIntoView({ behavior: "smooth" });
+});
+
+jugadoresButton.addEventListener("click", () => {
+    jugadoresSection.scrollIntoView({ behavior: "smooth" });
+});

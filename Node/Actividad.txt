@@ -1,0 +1,5 @@
+El codigo debe crear 2 carpetas, luego creara un 
+archivo dentro de la carpeta, luego morver el archivo de una carpeta a otra
+luego dentro del archivo escribir algo
+luego se eliminara 1 a 1, eliminar lo que se escribio
+luego el archivo, luego la carpeta.
